@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tcp_proxy_base" />
+        <module name="tcp_proxy_client" />
+        <module name="tcp_proxy_server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tcp_proxy_base" target="1.5" />
+      <module name="tcp_proxy_client" target="1.5" />
+      <module name="tcp_proxy_server" target="1.5" />
+      <module name="tcpproxy" target="1.5" />
+      <module name="tcpproxyclient" target="1.5" />
+      <module name="tcpproxyserver" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

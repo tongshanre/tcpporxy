@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ApexVcsIndex">
+    <index-move-record>
+      <option name="firstPath" value="/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/thread/ConnectAndProxy.java" />
+      <option name="path" value="/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/tool/ConnectAndProxy.java" />
+    </index-move-record>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tcp_proxy_base/tcp_proxy_base.iml" filepath="$PROJECT_DIR$/tcp_proxy_base/tcp_proxy_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tcp_proxy_client/tcp_proxy_client.iml" filepath="$PROJECT_DIR$/tcp_proxy_client/tcp_proxy_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tcp_proxy_server/tcp_proxy_server.iml" filepath="$PROJECT_DIR$/tcp_proxy_server/tcp_proxy_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tcpproxy.iml" filepath="$PROJECT_DIR$/tcpproxy.iml" />
+    </modules>
+  </component>
+</project>
