@@ -62,7 +62,7 @@ public class TcpProxyClient {
                         public void run() {
                             try {
                                 while(true){
-                                    Thread.sleep(new Random().nextInt(10)*100000);
+                                    Thread.sleep(new Random().nextInt(10)*1000);
                                     ProxyMsg proxyMsg = new ProxyMsg();
                                     proxyMsg.setMsgType(MsgType.HEART);
                                     oos.writeObject(proxyMsg);

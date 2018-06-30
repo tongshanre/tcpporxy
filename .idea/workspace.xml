@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42175a89-5f09-495c-b3e5-51f4f2abc4d9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/tool/ConnectAndProxy.java" afterPath="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/tool/ConnectAndProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/LoopConnectThread.java" afterPath="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/LoopConnectThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/ServerProxyThread.java" afterPath="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/ServerProxyThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java" afterPath="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +22,28 @@
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ConnectAndProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/tool/ConnectAndProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TcpProxyClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="64" column="76" lean-forward="true" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,11 +82,11 @@
         <option value="$PROJECT_DIR$/tcp_proxy_client/pom.xml" />
         <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/TcpProxyServer.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_base/src/main/java/com/tong/tcp/proxy/bean/MsgType.java" />
-        <option value="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/ClientConnetManageThread.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/ServerProxyThread.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/LoopConnectThread.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/tool/ConnectAndProxy.java" />
+        <option value="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java" />
       </list>
     </option>
   </component>
@@ -94,9 +113,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="126" />
-    <option name="y" value="162" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="302" />
+    <option name="y" value="11" />
     <option name="width" value="1659" />
     <option name="height" value="991" />
   </component>
@@ -537,11 +556,19 @@
       <option name="project" value="LOCAL" />
       <updated>1530370759569</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit client keep-alive">
+      <created>1530370921255</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530370921255</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="302" y="11" width="1659" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -553,12 +580,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19989339" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3315393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35831383" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22441365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26328957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -614,7 +641,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="commit keepalive" />
     <MESSAGE value="commit heart-beep" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit heart-beep" />
+    <MESSAGE value="commit client keep-alive" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit client keep-alive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -992,17 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="69" column="63" lean-forward="false" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
-          <folding>
-            <element signature="e#2173#3053#0" expanded="true" />
-            <element signature="e#3052#3053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/ClientConnetManageThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
@@ -1039,6 +1056,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="64" column="76" lean-forward="true" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
           <folding />
         </state>
       </provider>
