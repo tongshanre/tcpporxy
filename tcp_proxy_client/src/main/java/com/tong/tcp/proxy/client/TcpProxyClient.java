@@ -43,6 +43,7 @@ public class TcpProxyClient {
                 logger.info("client connect server "+connectTimes++ +" times");
                 try {
                     socket = new Socket();
+                    socket.setKeepAlive(true);
                     socket.connect(new InetSocketAddress(ConfigBean.SERVER_IP,ConfigBean.SRRVER_PORT));
                     logger.info("client connect server success.");
 

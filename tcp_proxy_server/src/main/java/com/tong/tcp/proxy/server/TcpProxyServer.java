@@ -17,13 +17,14 @@ public class TcpProxyServer {
 
     public void  start(){
         new LoopConnectThread().start();
-        ServerSocket serverSocket = null;
+        ServerSocket serverSocket;
         try {
             serverSocket = new ServerSocket();
             serverSocket.bind(new InetSocketAddress(ConfigBean.PORT));
             logger.info("TcpProxyServer start...");
             Socket socket;
             while((socket = serverSocket.accept())!=null){
+                socket.setKeepAlive(true);
                 logger.info("received remote client connect . The client address is '"+socket.getRemoteSocketAddress().toString()+"'");
                 String uuid = UUID.randomUUID().toString();
                 ClientConnetManageThread clientConnetManageThread = new ClientConnetManageThread(socket,uuid);
@@ -32,7 +33,6 @@ public class TcpProxyServer {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
         }
     }
 

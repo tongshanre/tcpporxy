@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42175a89-5f09-495c-b3e5-51f4f2abc4d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+    <list default="true" id="42175a89-5f09-495c-b3e5-51f4f2abc4d9" name="Default" comment="commit keepalive">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java" afterPath="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/TcpProxyServer.java" afterPath="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/TcpProxyServer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +21,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TcpProxyServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/TcpProxyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,8 +68,6 @@
         <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/tcp_proxy_base/src/main/java/com/tong/tcp/proxy/bean/MsgType.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_client/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/TcpProxyServer.java" />
-        <option value="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/ServerProxyThread.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/config/SocketReq.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/tool/ConnectAndProxy.java" />
@@ -65,6 +76,8 @@
         <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/tool/ClientConnetManageThread.java" />
         <option value="$PROJECT_DIR$/tcp_proxy_server/pom.xml" />
         <option value="$PROJECT_DIR$/tcp_proxy_client/pom.xml" />
+        <option value="$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java" />
+        <option value="$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/TcpProxyServer.java" />
       </list>
     </option>
   </component>
@@ -121,6 +134,176 @@
               <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tong" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tong" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tong" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tong" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tong" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcpproxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcpproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_proxy_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tong" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TcpProxyServer">
+  <component name="RunManager" selected="Application.TcpProxyClient">
     <configuration name="TcpProxyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -280,8 +463,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TcpProxyServer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TcpProxyClient" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TcpProxyClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TcpProxyServer" />
       </list>
     </recent_temporary>
   </component>
@@ -301,6 +484,14 @@
       <option name="presentableId" value="Default" />
       <updated>1529923635154</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1530364413154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530364413155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -308,19 +499,20 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4262648" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19989339" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2583423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3315393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22441365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22441365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -333,7 +525,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42688173" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -372,6 +563,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <MESSAGE value="commit keepalive" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit keepalive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,6 +690,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
           <caret line="385" column="29" lean-forward="true" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
+          <folding>
+            <element signature="e#11985#11986#0" expanded="false" />
+            <element signature="e#12016#12017#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -518,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp_proxy_client/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tcp_proxy_server/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -536,6 +729,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="695" column="29" lean-forward="false" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,6 +751,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -622,16 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/TcpProxyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/config/ConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -652,10 +837,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_65/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="62" column="26" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;class#Socket#0" expanded="false" />
+            <element signature="docComment;field#created#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;field#impl#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;field#oldImpl#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#1;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#1;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#2;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#2;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#3;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#3;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#4;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#4;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#5;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#5;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#6;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#6;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#7;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#7;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#Socket#8;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#8;class#Socket#0" expanded="false" />
+            <element signature="method#Socket#9;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#createImpl#0;class#Socket#0" expanded="false" />
+            <element signature="method#createImpl#0;class#Socket#0" expanded="false" />
+            <element signature="method#checkOldImpl#0;class#Socket#0" expanded="false" />
+            <element signature="e#19147#19218#0" expanded="false" />
+            <element signature="class#19385:20259" expanded="false" />
+            <element signature="method#run#0;class#19385:20259" expanded="false" />
+            <element signature="e#19830#19897#0" expanded="false" />
+            <element signature="docComment;method#setImpl#0;class#Socket#0" expanded="false" />
+            <element signature="method#setImpl#0;class#Socket#0" expanded="false" />
+            <element signature="e#20518#20584#0" expanded="false" />
+            <element signature="docComment;method#getImpl#0;class#Socket#0" expanded="false" />
+            <element signature="method#getImpl#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#connect#0;class#Socket#0" expanded="false" />
+            <element signature="method#connect#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#connect#1;class#Socket#0" expanded="false" />
+            <element signature="method#connect#1;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#bind#0;class#Socket#0" expanded="false" />
+            <element signature="method#bind#0;class#Socket#0" expanded="false" />
+            <element signature="method#checkAddress#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#postAccept#0;class#Socket#0" expanded="false" />
+            <element signature="method#postAccept#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getInetAddress#0;class#Socket#0" expanded="false" />
+            <element signature="method#getInetAddress#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getLocalAddress#0;class#Socket#0" expanded="false" />
+            <element signature="method#getLocalAddress#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getPort#0;class#Socket#0" expanded="false" />
+            <element signature="method#getPort#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getLocalPort#0;class#Socket#0" expanded="false" />
+            <element signature="method#getLocalPort#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getRemoteSocketAddress#0;class#Socket#0" expanded="false" />
+            <element signature="method#getRemoteSocketAddress#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getLocalSocketAddress#0;class#Socket#0" expanded="false" />
+            <element signature="method#getLocalSocketAddress#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getChannel#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getInputStream#0;class#Socket#0" expanded="false" />
+            <element signature="method#getInputStream#0;class#Socket#0" expanded="false" />
+            <element signature="class#35744:35946" expanded="false" />
+            <element signature="method#run#0;class#35744:35946" expanded="false" />
+            <element signature="docComment;method#getOutputStream#0;class#Socket#0" expanded="false" />
+            <element signature="method#getOutputStream#0;class#Socket#0" expanded="false" />
+            <element signature="class#37357:37562" expanded="false" />
+            <element signature="method#run#0;class#37357:37562" expanded="false" />
+            <element signature="docComment;method#setTcpNoDelay#0;class#Socket#0" expanded="false" />
+            <element signature="method#setTcpNoDelay#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getTcpNoDelay#0;class#Socket#0" expanded="false" />
+            <element signature="method#getTcpNoDelay#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setSoLinger#0;class#Socket#0" expanded="false" />
+            <element signature="method#setSoLinger#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getSoLinger#0;class#Socket#0" expanded="false" />
+            <element signature="method#getSoLinger#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#sendUrgentData#0;class#Socket#0" expanded="false" />
+            <element signature="method#sendUrgentData#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setOOBInline#0;class#Socket#0" expanded="false" />
+            <element signature="method#setOOBInline#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getOOBInline#0;class#Socket#0" expanded="false" />
+            <element signature="method#getOOBInline#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setSoTimeout#0;class#Socket#0" expanded="false" />
+            <element signature="method#setSoTimeout#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getSoTimeout#0;class#Socket#0" expanded="false" />
+            <element signature="method#getSoTimeout#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setSendBufferSize#0;class#Socket#0" expanded="false" />
+            <element signature="method#setSendBufferSize#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getSendBufferSize#0;class#Socket#0" expanded="false" />
+            <element signature="method#getSendBufferSize#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setReceiveBufferSize#0;class#Socket#0" expanded="false" />
+            <element signature="method#setReceiveBufferSize#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getReceiveBufferSize#0;class#Socket#0" expanded="false" />
+            <element signature="method#getReceiveBufferSize#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setKeepAlive#0;class#Socket#0" expanded="false" />
+            <element signature="method#setKeepAlive#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getKeepAlive#0;class#Socket#0" expanded="false" />
+            <element signature="method#getKeepAlive#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setTrafficClass#0;class#Socket#0" expanded="false" />
+            <element signature="method#setTrafficClass#0;class#Socket#0" expanded="false" />
+            <element signature="e#54454#54498#0" expanded="false" />
+            <element signature="docComment;method#getTrafficClass#0;class#Socket#0" expanded="false" />
+            <element signature="method#getTrafficClass#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setReuseAddress#0;class#Socket#0" expanded="false" />
+            <element signature="method#setReuseAddress#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#getReuseAddress#0;class#Socket#0" expanded="false" />
+            <element signature="method#getReuseAddress#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#Socket#0" expanded="false" />
+            <element signature="method#close#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#shutdownInput#0;class#Socket#0" expanded="false" />
+            <element signature="method#shutdownInput#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#shutdownOutput#0;class#Socket#0" expanded="false" />
+            <element signature="method#shutdownOutput#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Socket#0" expanded="false" />
+            <element signature="method#toString#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#isConnected#0;class#Socket#0" expanded="false" />
+            <element signature="method#isConnected#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#isBound#0;class#Socket#0" expanded="false" />
+            <element signature="method#isBound#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#isClosed#0;class#Socket#0" expanded="false" />
+            <element signature="method#isClosed#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#isInputShutdown#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#isOutputShutdown#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;field#factory#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setSocketImplFactory#0;class#Socket#0" expanded="false" />
+            <element signature="method#setSocketImplFactory#0;class#Socket#0" expanded="false" />
+            <element signature="docComment;method#setPerformancePreferences#0;class#Socket#0" expanded="false" />
+            <element signature="method#setPerformancePreferences#0;class#Socket#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp_proxy_client/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tcp_proxy_client/src/main/java/com/tong/tcp/proxy/client/TcpProxyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="64" column="67" lean-forward="false" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
+        <state relative-caret-position="-221">
+          <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp_proxy_server/src/main/java/com/tong/tcp/proxy/server/TcpProxyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding />
         </state>
       </provider>
