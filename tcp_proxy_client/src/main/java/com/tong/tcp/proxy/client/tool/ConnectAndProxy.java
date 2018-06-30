@@ -27,8 +27,10 @@ public class ConnectAndProxy {
         //连接两个服务进行转接
         try {
             Socket localSocket = new Socket();
+            localSocket.setKeepAlive(true);
             localSocket.connect(new InetSocketAddress(connect_ip,connect_port));
             Socket remoteSocket = new Socket();
+            remoteSocket.setKeepAlive(true);
             remoteSocket.connect(new InetSocketAddress(ConfigBean.SERVER_IP,server_port));
             new IoProxyThread(localSocket.getInputStream(),remoteSocket.getOutputStream()).start();
             new IoProxyThread(remoteSocket.getInputStream(),localSocket.getOutputStream()).start();

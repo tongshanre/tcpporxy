@@ -41,6 +41,7 @@ public class LoopConnectThread extends Thread {
                     logger.info("listenService start..");
                     Socket socket = serverSocket.accept();
                     logger.info("client connect this listenService.");
+                    socket.setKeepAlive(true);
                     new IoProxyThread(socket.getInputStream(),socketReq.getSocket().getOutputStream()).start();
                     new IoProxyThread(socketReq.getSocket().getInputStream(),socket.getOutputStream()).start();
                 } catch (IOException e) {

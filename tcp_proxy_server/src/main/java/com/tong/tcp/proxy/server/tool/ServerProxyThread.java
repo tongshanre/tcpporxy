@@ -30,6 +30,7 @@ public class ServerProxyThread extends Thread {
             serverSocket.bind(new InetSocketAddress(ip, port));
             Socket socket = null;
             while ((socket = serverSocket.accept()) != null) {
+                socket.setKeepAlive(true);
                 logger.info("custom connect the address is :" + socket.getRemoteSocketAddress().toString());
                 SocketReq socketReq = new SocketReq(port, socket);
                 ConfigBean.SOCKETREQ_QUEEN.add(socketReq);
