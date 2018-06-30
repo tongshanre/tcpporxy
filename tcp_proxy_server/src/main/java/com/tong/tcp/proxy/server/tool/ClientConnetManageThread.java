@@ -41,6 +41,12 @@ public class ClientConnetManageThread extends Thread{
                         logger.info("received register msg :"+proxyMsg.getMsg());
                         proxyRegister(uuid,proxyMsg);
                     }break;
+                    case HEART:{
+                        logger.info("receive client heart beep.");
+                    }break;
+                    default:{
+                        logger.error("received undefined MsgType");
+                    }
                 }
             }
         } catch (IOException e) {

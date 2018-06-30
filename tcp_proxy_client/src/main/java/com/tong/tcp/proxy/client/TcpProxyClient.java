@@ -47,7 +47,7 @@ public class TcpProxyClient {
                     socket.connect(new InetSocketAddress(ConfigBean.SERVER_IP,ConfigBean.SRRVER_PORT));
                     logger.info("client connect server success.");
 
-                    ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
+                    final ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
                     //发送注册信息
                     logger.info("send register msg:"+ConfigBean.PROXY_ITEMS.size());
                     for (String item:ConfigBean.PROXY_ITEMS) {
@@ -57,6 +57,25 @@ public class TcpProxyClient {
                         oos.writeObject(proxyMsg);
                         oos.flush();
                     }
+                    //心跳检测
+                    new Thread(new Runnable() {
+                        public void run() {
+                            try {
+                                while(true){
+                                    Thread.sleep(new Random().nextInt(10)*100000);
+                                    ProxyMsg proxyMsg = new ProxyMsg();
+                                    proxyMsg.setMsgType(MsgType.HEART);
+                                    oos.writeObject(proxyMsg);
+                                    oos.flush();
+                                    logger.info("heart beep....");
+                                }
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    }).start();
                     //监听输入流
                     ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
                     ProxyMsg proxyMsg=null;
